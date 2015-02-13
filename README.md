@@ -286,6 +286,12 @@ rails generate model User firstname:string lastname:string email:string
 rake db:migrate
 ```
 
+####Create a new user
+
+```
+User.create(firstname: "Arun", lastname: "Sood", email: "arun@email.com")
+```
+
 ####List all users in the database
 
 ```
